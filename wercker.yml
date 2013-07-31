@@ -3,6 +3,11 @@ box: flenter/multi-python
 build:
   # The steps that will be executed on build
   steps:
+    - script:
+        name: whiches...
+        code: |
+          which python
+          which pip
     # A step that executes `pip install` command
     - flenter/nosudo-pip-install
     - script:
