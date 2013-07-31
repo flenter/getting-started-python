@@ -8,6 +8,7 @@ build:
         code: |
           which python
           which pip
+          ls -la /usr/local/bin
     # A step that executes `pip install` command
     - flenter/nosudo-pip-install
     - script:
