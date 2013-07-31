@@ -20,4 +20,4 @@ build:
     - script:
         name: python unit test
         code: |
-          python app_test.py
+          python3 app_test.py
