@@ -1,6 +1,6 @@
 box: flenter/multi-python
 # Build definition
-build:
+ build:
   # The steps that will be executed on build
   steps:
     - script:
